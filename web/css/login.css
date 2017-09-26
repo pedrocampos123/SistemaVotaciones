@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-26-2017, 02:37:56 PM
+    Author     : Pedro Campos
+*/
+
+/*color de la pagina*/
+body{
+    background: #0099cc;  
+}
+
+/*formato del formulario*/
+form{
+    background: #fff; 
+    width: 360px;
+    border-radius: 20px;
+    margin: 100px auto;
+    outline: none;
+    border: 2px solid #545E5E;
+}
+
+
+form p{
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Arial Rounded MT Bold', cursive;
+}
+
+form p a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*formato de las cajas de texto*/
+form input{
+    background: #F1EFEF;
+    width: 280px;
+    height: 35px;
+    padding: 0px 10px;
+    margin: 10px 30px;
+    border: 1px solid #232323;
+    border-radius: 20px;
+    color: #6d6d6d;
+    text-align: center;
+    outline: none;
+}
+
+/*formato de los botones*/
+form button{
+    width: 135px;
+    margin: 10px 0px 10px 30px;
+    height: 50px;
+    border: 1px solid #232323;
+    border-radius: 20px;
+    outline: none;
+    margin-left: 110px;
+}
+
+form button:hover{
+    background: #BABDBD;
+    cursor: pointer;
+}
+
+/*formato de la imagen de logo del formulario*/
+form img{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0px 10px 100px;
+    border-radius: 100px;
+}
+
+/*formato del contenedor de todo el formulario*/
+.login{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    button: 0px;
+    margin: auto;
+}
